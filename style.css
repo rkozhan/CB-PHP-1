@@ -1,0 +1,47 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    color-scheme: dark light;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+    box-shadow: 0 0 50px -10px gainsboro;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 20px;
+}
